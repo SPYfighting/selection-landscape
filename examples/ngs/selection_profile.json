@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "primary_minimum_pooled_molecules": 10,
+  "low_weight_minimum_pooled_molecules": 5,
+  "low_weight_maximum_pooled_molecules": 9,
+  "minimum_molecules_per_chain_cell": 1,
+  "transition_weights": {
+    "r1_to_r2": 0.4,
+    "r2_to_r3": 0.6
+  },
+  "weak_transition_weight": 0.5,
+  "round3_abundance_weight": 0.2,
+  "decline_tolerance": 0.7,
+  "decline_penalty_strength": 0.2,
+  "percentile_method": "ascending_midrank_one_based_divided_by_primary_universe_size",
+  "low_weight_percentile_method": "map_to_frozen_primary_empirical_midrank_distribution"
+}

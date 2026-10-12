@@ -1,0 +1,24 @@
+{
+  "uid": {
+    "anchor": "ACGTACGT",
+    "uid_length": 8
+  },
+  "orf": {
+    "frame_zero_based": 0,
+    "nt_start_zero_based": 0,
+    "nt_end_exclusive": 33,
+    "aa_length": 11,
+    "start_motif": "EVQ",
+    "end_motif": "VTVSS",
+    "lead_aa": "EVQACDVTVSS"
+  },
+  "parameter_sets": [
+    {
+      "name": "strict",
+      "anchor_mismatch_max": 1,
+      "bowtie2_mode": "--local --very-sensitive-local",
+      "min_mapq": 10,
+      "min_orf_coverage": 0.9
+    }
+  ]
+}

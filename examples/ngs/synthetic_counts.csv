@@ -1,0 +1,13 @@
+sample_id,round,chain,param_name,nt_sequence,aa_sequence,read_count,molecule_count,productive,productive_reason,has_indel_gaps
+R1_Crick,1,Crick,strict,GAA,EVQACDVTVSS,8,8,True,ok,False
+R1_Watson,1,Watson,strict,GAA,EVQACDVTVSS,8,8,True,ok,False
+R2_Crick,2,Crick,strict,GAA,EVQACDVTVSS,9,9,True,ok,False
+R2_Watson,2,Watson,strict,GAA,EVQACDVTVSS,9,9,True,ok,False
+R3_Crick,3,Crick,strict,GAA,EVQACDVTVSS,10,10,True,ok,False
+R3_Watson,3,Watson,strict,GAA,EVQACDVTVSS,10,10,True,ok,False
+R1_Crick,1,Crick,strict,GCC,EVQCCDVTVSS,3,3,True,ok,False
+R1_Watson,1,Watson,strict,GCC,EVQCCDVTVSS,3,3,True,ok,False
+R2_Crick,2,Crick,strict,GCC,EVQCCDVTVSS,3,3,True,ok,False
+R2_Watson,2,Watson,strict,GCC,EVQCCDVTVSS,3,3,True,ok,False
+R3_Crick,3,Crick,strict,GCC,EVQCCDVTVSS,3,3,True,ok,False
+R3_Watson,3,Watson,strict,GCC,EVQCCDVTVSS,3,3,True,ok,False

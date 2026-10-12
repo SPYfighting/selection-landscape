@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this software by its version and repository URL."
+title: "Selection Landscape"
+type: software
+authors:
+  - name: "Selection Landscape contributors"
+version: 0.1.0
+date-released: 2026-10-12
+repository-code: "https://github.com/SPYfighting/selection-landscape"
+license: MIT
+abstract: >-
+  Processing of targeted sequencing data, independent calculation of
+  NGS-derived selection scores, and calibrated additive prediction from
+  measured labels for single and double protein variants.

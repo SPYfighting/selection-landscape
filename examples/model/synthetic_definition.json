@@ -1,0 +1,14 @@
+{
+  "description": "Artificial labels generated from predefined parameters; not measured protein data.",
+  "wild_type_sequence": "ACDE",
+  "wild_type_label": 0.5,
+  "single_mutant_effects": {"A1V": 0.6, "C2S": 0.2, "D3N": -0.1, "E4Q": -0.4},
+  "single_label_formula": "sigmoid(effect)",
+  "double_label_formula": "sigmoid(intercept + slope * (effect_1 + effect_2))",
+  "intercept": 0.1,
+  "slope": 0.8,
+  "noise": 0.0,
+  "calibration_pairs": ["A1V__C2S", "D3N__E4Q"],
+  "expected_candidate_order": ["A1V__D3N", "A1V__E4Q", "C2S__D3N", "C2S__E4Q"],
+  "fitted_prediction_absolute_tolerance": 0.0001
+}

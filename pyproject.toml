@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "selection-landscape"
+version = "0.1.0"
+description = "NGS selection scores and calibrated additive prediction of protein variants"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+ngs = ["biopython>=1.81,<2", "pysam>=0.22,<0.25"]
+
+[project.scripts]
+selection-landscape-model = "selection_landscape.model.cli:main"
+
+[project.urls]
+Repository = "https://github.com/SPYfighting/selection-landscape"
+Issues = "https://github.com/SPYfighting/selection-landscape/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
